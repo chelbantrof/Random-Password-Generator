@@ -1,0 +1,65 @@
+# Файлы истории паролей (содержат сгенерированные пароли)
+password_history.json
+history.json
+*history*.json
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+.env/
+*.env
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Файлы логов
+*.log
+logs/
+*.log.*
+
+# Временные файлы
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Файлы отладки
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы настроек (если случайно сохраняете пароли или токены)
+config.ini
+settings.ini
+*.secret
+*.key
+
+# Файлы запуска (еśli создаются при работе)
+*.pid
+*.lock
